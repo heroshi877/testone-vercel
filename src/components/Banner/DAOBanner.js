@@ -81,13 +81,12 @@ export const MainPageBannerContainer = styled(`div`)`
   background: #ffffff;
   border-radius: 14px;
   max-width: 90%;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 15px 0;
   a {
     flex-grow: 1;
-    display: grid;
+    display: none;
     grid-template-columns: 73px 1fr 50px;
   }
   ${mq.medium`
