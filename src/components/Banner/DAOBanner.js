@@ -135,20 +135,7 @@ export function DAOBannerContent() {
           : 'https://constitution.ens.domains/'
       }
     >
-      <LogoSmall $daoGradient={!shouldDelegate} src={ENSIcon} alt="ENS logo" />
-      <BannerContentWrapper>
-        <BannerTitle>
-          {shouldDelegate
-            ? t('banners.undelegatedTokens.title')
-            : t('banners.constitution.title')}
-        </BannerTitle>
-        <BannerContent>
-          {shouldDelegate
-            ? t('banners.undelegatedTokens.description')
-            : t('banners.constitution.description')}
-        </BannerContent>
-      </BannerContentWrapper>
-      <ArrowSmall src={Arrow} alt="Arrow right icon" />
+      
     </Link>
   )
 }
