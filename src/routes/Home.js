@@ -25,6 +25,7 @@ const HeroTop = styled('div')`
   display: grid;
   padding: 20px;
   position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -51,6 +52,8 @@ const NetworkStatus = styled('div')`
   font-weight: 200;
   text-transform: capitalize;
   display: none;
+  position: absolute;
+  right:0;
   ${mq.small`
     display: block;
   `}
@@ -321,6 +324,13 @@ export default ({ match }) => {
               buttonText={isReadOnly ? t('c.connect') : t('c.disconnect')}
             />
           )}
+          <Network>
+            {`${network} ${t('c.network')}`}
+            {isReadOnly && <ReadOnly>({t('c.readonly')})</ReadOnly>}
+            {!isReadOnly && displayName && (
+              <Name data-testid="display-name">({displayName})</Name>
+            )}
+          </Network>
         </NetworkStatus>
         <Nav>
           {accounts?.length > 0 && !isReadOnly && (
