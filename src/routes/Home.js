@@ -173,13 +173,13 @@ const Search = styled(SearchDefault)`
     width: 100%;
     border-radius: 0px;
     ${mq.medium`
-      border-radius: 6px 0 0 6px;
+      border-radius: 100px 0 0 100px;
       font-size: 28px;
     `}
   }
 
   button {
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 100px 100px 0;
   }
 `
 
