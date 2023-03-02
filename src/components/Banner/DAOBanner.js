@@ -112,11 +112,7 @@ export const NonMainPageBannerContainer = styled(`div`)`
   `}
 `
 
-export const NonMainPageBannerContainerWithMarginBottom = styled(
-  NonMainPageBannerContainer
-)`
-  margin-bottom: 20px;
-`
+
 
 export function DAOBannerContent() {
   const { t } = useTranslation()
