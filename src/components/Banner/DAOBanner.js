@@ -17,7 +17,7 @@ const LogoSmall = styled.img`
   padding: 10px;
   border-radius: 50%;
   margin: auto;
-  display: block;
+  display:none;
   box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
   background: linear-gradient(
     330.4deg,
@@ -34,18 +34,20 @@ const LogoSmall = styled.img`
 `
 
 const Link = styled(`a`)`
-  display: block;
+  display:none;
 `
 
 const ArrowSmall = styled.img`
   margin: auto;
-  display: block;
+  display:none;
   width: 22px;
   color: #b3b3b3;
+  
 `
 
 const BannerTitle = styled(`div`)`
   color: #0e0e0e;
+  display:none;
   letter-spacing: -0.01em;
   font-weight: bold;
   font-size: 18px;
@@ -53,6 +55,7 @@ const BannerTitle = styled(`div`)`
 
 const BannerContent = styled(`div`)`
   color: #787878;
+  display:none;
   font-size: 18px;
   letter-spacing: -0.01em;
   font-weight: 500;
@@ -61,6 +64,7 @@ const BannerContent = styled(`div`)`
 
 const BannerContentWrapper = styled('div')`
   display: flex;
+  display:none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
@@ -69,6 +73,7 @@ const BannerContentWrapper = styled('div')`
 export const MainPageBannerContainer = styled(`div`)`
   position: absolute;
   top: 50px;
+  display:none;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -100,7 +105,7 @@ export const NonMainPageBannerContainer = styled(`div`)`
   display: grid;
   padding: 15px 0px;
   a {
-    display: grid;
+    display:none;
     grid-template-columns: 73px 1fr 50px;
   }
   ${mq.medium`
