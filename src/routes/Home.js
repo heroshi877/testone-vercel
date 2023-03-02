@@ -25,7 +25,6 @@ const HeroTop = styled('div')`
   display: grid;
   padding: 20px;
   position: absolute;
-  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -52,8 +51,6 @@ const NetworkStatus = styled('div')`
   font-weight: 200;
   text-transform: capitalize;
   display: none;
-  position: absolute;
-  right:0;
   ${mq.small`
     display: block;
   `}
