@@ -14,6 +14,8 @@ import LanguageSwitcher from '../LanguageSwitcher'
 const SearchForm = styled('form')`
   display: flex;
   position: relative;
+    border:2px solid red;
+    border-radius:30px 30px 0px 30px;
   &:before {
     content: '';
     position: absolute;
@@ -21,8 +23,6 @@ const SearchForm = styled('form')`
     top: 50%;
     transform: translate(0, -50%);
     display: block;
-    border:2px solid red;
-    border-radius:30px 30px 0px 30px;
     width: 27px;
     height: 27px;
     background: url(${searchIcon}) no-repeat;
