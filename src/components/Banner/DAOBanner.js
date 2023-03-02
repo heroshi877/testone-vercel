@@ -102,7 +102,7 @@ export const NonMainPageBannerContainer = styled(`div`)`
   right: 0;
   background: #ffffff;
   border-radius: 14px;
-  display: grid;
+  display:none;
   padding: 15px 0px;
   a {
     display:none;
