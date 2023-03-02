@@ -21,6 +21,8 @@ const SearchForm = styled('form')`
     top: 50%;
     transform: translate(0, -50%);
     display: block;
+    border:2px solid red;
+    border-radius:30px 30px 0px 30px;
     width: 27px;
     height: 27px;
     background: url(${searchIcon}) no-repeat;
@@ -30,8 +32,6 @@ const SearchForm = styled('form')`
     padding: 20px 0 20px 55px;
     width: 100%;
     color:gray;
-    border:2px solid red;
-    border-radius:30px 30px 0px 30px;
     font-family: Overpass;
     font-weight: 100;
     ${mq.medium`
