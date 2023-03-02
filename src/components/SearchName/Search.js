@@ -28,7 +28,7 @@ const SearchForm = styled('form')`
 
   input {
     padding: 20px 0 20px 55px;
-    width: 100%;
+    width: 10%;
     color:gray;
     border:none;
     font-family: Overpass;
