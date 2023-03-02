@@ -14,7 +14,7 @@ import LanguageSwitcher from '../LanguageSwitcher'
 const SearchForm = styled('form')`
   display: flex;
   position: relative;
-
+  border: 2px solid red;
   &:before {
     content: '';
     position: absolute;
@@ -30,7 +30,7 @@ const SearchForm = styled('form')`
   input {
     padding: 20px 0 20px 55px;
     width: 100%;
-    border: none;
+    color:gray;
     border-radius: 100px 0px 0px 100px;
     font-family: Overpass;
     font-weight: 100;
