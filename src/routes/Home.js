@@ -315,13 +315,6 @@ export default ({ match }) => {
     <Hero>
       <HeroTop>
         <NetworkStatus>
-          <Network>
-            {`${network} ${t('c.network')}`}
-            {isReadOnly && <ReadOnly>({t('c.readonly')})</ReadOnly>}
-            {!isReadOnly && displayName && (
-              <Name data-testid="display-name">({displayName})</Name>
-            )}
-          </Network>
           {!isSafeApp && (
             <NoAccounts
               onClick={isReadOnly ? connectProvider : disconnectProvider}
