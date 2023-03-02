@@ -14,7 +14,6 @@ import LanguageSwitcher from '../LanguageSwitcher'
 const SearchForm = styled('form')`
   display: flex;
   position: relative;
-  border: 2px solid red;
   &:before {
     content: '';
     position: absolute;
@@ -36,7 +35,6 @@ const SearchForm = styled('form')`
     ${mq.medium`
       width: calc(100% - 162px);
       font-size: 28px;
-      border-radius: 100px 0px 0px 100px;
     `}
 
     &:focus {
