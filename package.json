@@ -168,7 +168,7 @@
     ]
   },
   "engines": {
-    "node": ">=14 <17"
+    "node": ">=14 <20"
   },
   "jest": {
     "resetMocks": false
